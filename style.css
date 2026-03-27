@@ -71,9 +71,30 @@ body {
 }
 
 /* Aboutレイアウト */
+/* 全体 */
 .about-container {
   display: flex;
+  flex-direction: column;
   gap: 40px;
+}
+
+.about-top {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* 写真 */
+.about-image {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.about-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover; /* ←縦長でも崩れない */
+  filter: grayscale(20%);
 }
 
 /* 左：文章 */
@@ -101,7 +122,7 @@ body {
 }
 /* 右：スキル */
 .skills {
-  flex: 1;
+  width: 100%;
 }
 
 .skills ul {
