@@ -166,6 +166,13 @@ body {
   flex: 1;
   text-decoration: none;
   color: #333;
+  overflow: visible;
+  transition-duration: 0.5s;
+}
+
+.work-card:hover {
+transform: scale(1.2,1.2);
+transition-duration: 0.5s;
 }
 
 .work-card img {
