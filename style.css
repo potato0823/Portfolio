@@ -81,6 +81,24 @@ body {
   flex: 1;
 }
 
+.hobbies-specialskills {
+  margin-top: 20px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.item h4 {
+  font-size: 14px;
+  color: #888;
+}
+
+.hobbies-specialskills .skill-description {
+  margin-left: 20px;
+  color: #555;
+  font-size: small;
+}
 /* 右：スキル */
 .skills {
   flex: 1;
@@ -108,7 +126,8 @@ body {
 
 .level {
   height: 100%;
-  background: #333;
+  background: linear-gradient(90deg, #343434, #a0a0a0);
+
 }
 
 /* レベル */
@@ -122,11 +141,28 @@ body {
   gap: 20px;
 }
 
-.work-item {
+.work-card {
   flex: 1;
-  padding: 40px;
-  background: #eee;
-  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.work-card img {
+  width: 100%;
+  display: block;
+}
+
+.work-info {
+  padding: 10px 0;
+}
+
+.work-info h3 {
+  font-size: 16px;
+}
+
+.work-info p {
+  font-size: 12px;
+  color: #777;
 }
 
 /* フッター */
