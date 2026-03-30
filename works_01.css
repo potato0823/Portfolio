@@ -103,3 +103,26 @@ body {
   background: #222;
   color: #fff;
 }
+
+@media  screen and (max-width: 767px) {
+    .section{
+        margin: 20% 5%;
+    }
+    .main-section{
+        margin: 0 5%;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;/*横スクロールのみ有効に*/
+        scroll-snap-type: x mandatory;
+        gap: 20px;
+            /* Chrome, Safari, Edge (WebKit系) */
+        -webkit-overflow-scrolling: touch; /* スマホでの慣性スクロールを有効に */
+    }
+    .work-main-img{
+        min-width: 90%;
+    }
+
+    .design-img img{
+        margin-bottom: 10%;
+    }
+}
