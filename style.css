@@ -20,6 +20,10 @@ body {
   padding: 20px;
 }
 
+.header .logo {
+  width: 80px;
+}
+
 .nav {
   display: flex;
   gap: 20px;
